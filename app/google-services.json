@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "527495521174",
+    "project_id": "self-journal-5d1e2",
+    "storage_bucket": "self-journal-5d1e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527495521174:android:eeee056dd2724b8df433b7",
+        "android_client_info": {
+          "package_name": "com.hbdevbd.selfjournal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527495521174-7p0ihr7560g1eae1gr12n7vj9csva3uf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLjLOR_3T5IACJYOjFtDv3Ysb_vrA2HDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527495521174-7p0ihr7560g1eae1gr12n7vj9csva3uf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

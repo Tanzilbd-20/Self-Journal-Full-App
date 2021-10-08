@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="50dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_delete"
+        android:elevation="30dp"
+        app:cardBackgroundColor="@color/my_light_gray"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="bottom"
+        >
+
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="50dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/delete_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:alpha="0.7"
+                android:src="@drawable/ic_baseline_delete_24" />
+
+            <TextView
+                android:id="@+id/delete_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/delete_icon"
+                android:gravity="center"
+                android:text="Delete"
+                android:textColor="@color/red"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/deleteProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+
+        />
+
+</LinearLayout>

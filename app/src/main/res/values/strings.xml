@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Self Journal</string>
+    <string name="title_text">Self. Gratitude. Journal</string>
+    <string name="grateful_text">What are you grateful for today?</string>
+    <string name="start_button_text">Get Started</string>
+    <string name="welcomeText">Welcome to  Self Journal</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_text">Login</string>
+    <string name="orText">Or</string>
+    <string name="create_account_text">Create new account</string>
+    <string name="userName_hint">User Name</string>
+    <string name="image_view">backround_image</string>
+    <string name="camera_vector_image">Camera</string>
+    <string name="thought_hint">Thoughts...</string>
+    <string name="enter_title_hint">Title</string>
+    <string name="post_journal_text">Post Journal</string>
+    <string name="create_new_journal">Create new journal</string>
+    <string name="logout_text">Logout</string>
+    <string name="row_title">Journal Title</string>
+    <string name="share_text">Share Image</string>
+</resources>

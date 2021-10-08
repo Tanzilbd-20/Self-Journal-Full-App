@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gd_background_2"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/welcomeText" />
+
+    <ProgressBar
+        android:id="@+id/login_progressBar"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_border_2"
+        android:layout_marginBottom="70dp"
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/login_email_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edit_text_border_2"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:inputType="textEmailAddress"
+            android:paddingStart="10dp"
+            android:hint="@string/email_hint"/>
+
+        <EditText
+            android:id="@+id/login_password_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="@string/password_hint"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_border_2"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:paddingStart="10dp" />
+        <Button
+            android:id="@+id/login_button"
+            android:text="@string/login_text"
+            android:paddingStart="12dp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/login_text_color"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:fontFamily="@font/aldrich"
+            android:padding="5dp"
+            android:text="@string/orText"
+            android:background="@drawable/edit_text_border_2"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+        <Button
+            android:id="@+id/create_new_account_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_account_text"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:background="@android:color/transparent"
+            android:textColor="@color/login_text_color"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
